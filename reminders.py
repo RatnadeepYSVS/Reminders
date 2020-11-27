@@ -4,8 +4,8 @@ username=input('Please Enter Your Name ')
 obj=SMTP('smtp.gmail.com',587)
 obj.ehlo()
 obj.starttls()
-email='ratnadeepyeleswarapu@gmail.com'
-passcode='spmndslfqfvnqvsy'#must be your app passcode not your gmail passcode.Kindly google it or check in youtube if not known.
+email=''
+passcode=''#must be your app passcode not your gmail passcode.Kindly google it or check in youtube if not known.
 obj.login(email,passcode)
 z=list()
 while True:
